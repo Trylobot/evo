@@ -1,0 +1,24 @@
+; Tyler Cole
+; EVO Project Settings
+; settings.dat
+
+                FLAG_FAST 0        ; 0:slow, 1:fast
+                FLAG_MENU 0        ; 0:detailed, 1:minimal
+          WORLDMAP_HEIGHT 40       ; Height of the world map grid
+           WORLDMAP_WIDTH 50       ; Width of the world map grid
+         PLANT_POPULATION 600      ; Number of plants present in the world
+             PLANT_CLUMPS 10       ; Number of clumps for plants to spawn near to
+     HERBIVORE_POPULATION 25       ; Number of herbivores present in the world
+     CARNIVORE_POPULATION 10       ; Number of carnivores present in the world
+             CYCLE_LENGTH 250      ; Length of a single cycle in days (turns)
+            MUTATION_RATE 25       ; Chance in 10,000 of any single gene being mutated
+           CROSSOVER_RATE 10000    ; Chance in 10,000 of a dna set having 2 parents (rather than 1)
+             COUNT_STATES 5        ; Maximum state value
+      PLANT_NOURISH_VALUE 1        ; Score added to herbivores on consuming a plant
+    HERBIVORE_DEATH_VALUE 2        ; Score subtracted from herbivores on death
+  HERBIVORE_NOURISH_VALUE 1        ; Score added to carnivores on consuming an herbivore
+         FLAG_SHOW_ELITES 1        ; 0:don't show, 1:highlight top scorers
+       FLAG_PLANT_RESPAWN 1        ; 0:middle, 1:sides, 2:anywhere, 3:clumps
+   FLAG_HERBIVORE_RESPAWN 1        ; 0:middle, 1:sides, 2:anywhere
+   FLAG_CARNIVORE_RESPAWN 2        ; 0:middle, 1:sides, 2:anywhere
+                WAIT_TIME 150      ; Time in milliseconds to wait between slow-mode grid updates
